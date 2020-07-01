@@ -84,3 +84,5 @@ terraform import vsphere_virtual_disk.disk /dc1/[ds1] disk1_vmdk_path
 
 The above would import the virtual disk located at `disk1_vmdk_path` in the `ds1`
 datastore of the `dc1` datacenter.
+
+~> **NOTE:** Import is not supported if using the **deprecated** `adapter_type` field.
